@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: #212529;
 }
 
 .cambio_color {
@@ -51,4 +52,99 @@ html, body {
 .navbar-brand img {
     width: 50px;
     height: auto;
+}
+
+.footer {
+    background-color: rgba(0, 97, 53, 0.9);
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.seccionverde {
+    background-color: rgba(0, 97, 53, 0.9);
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen_pagina1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.imagen_pagina1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa_opacidad_pagina1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagen_pagina1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.carousel {
+    max-height: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.contenedor-tarjetas {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contenedor-tarjetas h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
 }
